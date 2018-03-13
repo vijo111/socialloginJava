@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package avatar.sociallogin;
+
+import org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties;
+import org.springframework.boot.context.properties.NestedConfigurationProperty;
+import org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails;
+
+/**
+ * @author vijo
+ *
+ */
+public class ClientDetails {
+	@NestedConfigurationProperty
+	private AuthorizationCodeResourceDetails client = new AuthorizationCodeResourceDetails();
+
+	@NestedConfigurationProperty
+	private ResourceServerProperties resource = new ResourceServerProperties();
+
+	public AuthorizationCodeResourceDetails getClient() {
+		System.out.print("---------------10");
+		return client;
+	}
+
+	public ResourceServerProperties getResource() {
+		System.out.print("---------------11");
+		return resource;
+	}
+}

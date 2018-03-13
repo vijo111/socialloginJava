@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Avatar Social Login
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Vijayanand.m
+Implementation-Vendor-Id: cit.avatar
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://projects.spring.io/spring-boot/avatar-socia
+ llogin/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
